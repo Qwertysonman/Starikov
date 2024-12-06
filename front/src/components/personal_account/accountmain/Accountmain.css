@@ -1,0 +1,151 @@
+.am-accountmain {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.am-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.am-accountmain-img {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.am-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.am-edit-button, .am-apply-button {
+    background-color: #D42323;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.am-edit-button:hover, .am-apply-button:hover {
+    background-color: #0056b3;
+}
+
+.am-accountmain-text {
+    flex-grow: 1;
+}
+
+.am-accountmain-name h1 {
+    margin: 0;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.am-accountmain-info {
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    padding-left: 15%;
+}
+
+.am-info {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    flex: 1;
+    line-height: 1.8;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.am-edit-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.am-edit-form h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.am-input-box {
+    margin-bottom: 15px;
+}
+
+.am-input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.am-input-box input,
+.am-input-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    color: #555;
+}
+
+.am-input-box input:focus,
+.am-input-box select:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.am-input-box select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23000" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+    padding-right: 30px;
+}
+
+.am-input-box select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.am-apply-button {
+    background-color: #D42323;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.am-error-message {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,83 @@
+.advert {
+    margin-bottom: 63px;
+}
+
+.advert_content {
+    border-radius: 59px;
+    background-color: #D42323;
+    display: flex;
+    column-gap: 24px;
+    padding-left: 120px;
+    min-height: 500px; /* Добавлено для гарантии минимальной высоты */
+    align-items: center; /* Центрируем содержимое по вертикали */
+}
+
+.advert_text {
+    flex: 1; /* Растягиваем текстовый блок, чтобы он занимал оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем текст по вертикали */
+}
+
+.advert_title {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 1.25;
+}
+
+.advert_desc {
+    font-weight: 100;
+    max-width: 700px;
+    font-size: 32px;
+    line-height: calc(48 / 32);
+    letter-spacing: -0.05em;
+    margin-bottom: 30px; /* Расстояние между desc и кнопкой */
+}
+
+.advert_btn-wrapper {
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.advert_btn-wrapper::before {
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../../../images/Элементы оформления/Декорация_листик_белый.png');
+}
+
+.advert_img {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 75px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center; /* Центрируем картинку по вертикали */
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: -12px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+

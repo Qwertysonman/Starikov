@@ -1,0 +1,158 @@
+/* Students.css */
+
+.student-table-container {
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.student-filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.student-filters-container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #ddd;
+}
+
+.student-table td.actions {
+  display: flex; /* Горизонтальное расположение */
+  justify-content: flex-start; /* Выровнены слева */
+  align-items: center;
+  gap: 10px; /* Расстояние между кнопками */
+}
+
+.student-table button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.student-table button:hover {
+  background-color: #0056b3;
+}
+
+.student-table input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Стили для блока добавления пользователя */
+.student-add-form-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.student-add-form-container h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.student-add-form-group {
+  margin-bottom: 15px;
+}
+
+.student-add-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.student-add-form-group select,
+.student-add-form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.student-add-form-submit-button {
+  background-color: #c93018;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.student-add-form-submit-button:hover {
+  background-color: #821e0c;
+}
+
+.student-add-form-error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Стили для кнопки "Add New Student" */
+.student-add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.student-add-button:hover {
+  background-color: #0056b3;
+}

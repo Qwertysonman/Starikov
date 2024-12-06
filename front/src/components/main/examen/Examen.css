@@ -1,0 +1,86 @@
+.examen {
+    background-color: #F4F6F5; /* Серый фон для всего блока */
+    padding: 10px; /* Добавлено для отступов внутри блока */
+    padding-left: 40px;
+}
+
+.examen_content {
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+    gap: 70px; /* Расстояние между картинкой и текстом */
+}
+
+.examen_img {
+    flex: 0 0 auto; /* Фиксированная ширина для картинки */
+}
+
+.examen_title {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.25;
+}
+
+.examen_desc {
+    font-weight: 100;
+    max-width: 700px;
+    font-size: 32px;
+    line-height: calc(48 / 32);
+    letter-spacing: -0.05em;
+    margin-bottom: 30px;
+}
+
+.examen_btn-wrapper {
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+.examen_btn-wrapper::before {
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../../../images/Элементы оформления/Декорация_листик.png');
+}
+
+.examen_btn {
+    padding: 18px 40px;
+    background: #000000;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    color: #fff;
+    margin-bottom: 30px;
+    order: 1;
+}
+
+.examen_btn:hover {
+    background-color: #999a9f;
+    color: #fff;
+    transform: scale(0.98);
+    transition: transform 0.5s ease;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span {
+    position: relative;
+}
+
+.highlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: -12px;
+    left: -20px;
+    right: -60p
+}

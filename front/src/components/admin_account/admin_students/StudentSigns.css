@@ -1,0 +1,184 @@
+.student-signs-container {
+    margin-top: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 150px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    color: #555;
+}
+
+.filters-container input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.student-signs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.student-signs-table th,
+.student-signs-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.student-signs-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.student-signs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-signs-table tr:hover {
+    background-color: #ddd;
+}
+
+.student-signs-table td.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-signs-table button {
+    background-color: #D42323;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.student-signs-table button:hover {
+    background-color: #0056b3;
+}
+
+.student-signs-table input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    color: #555;
+}
+
+.student-signs-table input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.action-buttons button {
+    margin: 25px 15px;
+    background-color: #D42323;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.add-button, .back-button {
+    background-color: #D42323;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover, .back-button:hover {
+    background-color: #0056b3;
+}
+
+.new-sign-form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-sign-form h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.new-sign-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    color: #555;
+}
+
+.new-sign-form input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.new-sign-form button {
+    background-color: #D42323;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.new-sign-form button:hover {
+    background-color: #0056b3;
+}

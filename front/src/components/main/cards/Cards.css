@@ -1,0 +1,89 @@
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover .card_img {
+    opacity: 0.8;
+}
+
+.card:hover .card_icon {
+    opacity: 0.4;
+}
+
+.card_link {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.card_img {
+    margin-bottom: 28px;
+    border-radius: 20px;
+}
+
+.card_body {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.card_title {
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.56;
+    letter-spacing: -0.04em;
+}
+
+.card_muted {
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2.08;
+    letter-spacing: -0.04em;
+    color: #777;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal_content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 430px;
+    height: 430px;
+    overflow: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Центрирование текста */
+}
+
+.modal_content p {
+    margin: 20px 0; /* Отступы сверху и снизу */
+    font-size: 18px; /* Размер шрифта */
+    line-height: 1.6; /* Межстрочный интервал */
+    color: #333; /* Цвет текста */
+}
+
+.modal_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
