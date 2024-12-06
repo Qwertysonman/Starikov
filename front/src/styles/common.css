@@ -1,0 +1,33 @@
+:root {
+    --textColor: #000;
+    --yellow: #EBD96B;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+.container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.title-2{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: 0.06em;
+    position: relative;
+    display: inline-block;
+}
+.title-2::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 0px;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../images/Элементы оформления/Декорация_листик.png');
+    background-repeat: no-repeat;
+
+}
